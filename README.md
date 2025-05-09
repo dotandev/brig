@@ -59,11 +59,9 @@ A modern, interactive booking system for co-working spaces with membership tiers
 
 - `app/` - Next.js app router pages
 - `components/` - React components
-  - `booking-system.tsx` - Main booking system component
-  - `desk-layout.tsx` - Visual representation of desks
-  - `booking-form.tsx` - Form for booking a desk
-  - `booking-confirmation.tsx` - Confirmation modal
-  - `revenue-chart.tsx` - Revenue dashboard with charts
+  - `booking/` - Main booking system component
+  - `desk/` - Visual representation of desks
+  - `revenue/.tsx` - Revenue dashboard with charts
 - `lib/` - Utility functions and types
   - `types.ts` - TypeScript interfaces and types
   - `utils.ts` - Helper functions including price calculation
